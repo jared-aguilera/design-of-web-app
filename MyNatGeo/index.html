@@ -12,24 +12,47 @@
 
         <header class="site-init">
 
+            <input type="checkbox" id="check-menu" class="hidden-checkbox">
+
             <div class="navigation">
+                
+                <label for="check-menu" class="ham-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
                 <img src="redesign-logo.svg">
                 <nav class="nav-links">
-                    <a href="#">Animals</a>
-                    <a href="#">History & Culture</a>
-                    <a href="#">Travel</a>
-                    <a href="#">Health</a>
-                    <a href="#">Science & Nature</a>
-                    <a href="#">Shows</a>
-                    <a href="#">More</a>
+                    <a class="a-menu" href="#">Animals</a>
+                    <a class="a-menu" href="#">History & Culture</a>
+                    <a class="a-menu" href="#">Travel</a>
+                    <a class="a-menu" href="#">Health</a>
+                    <a class="a-menu" href="#">Science & Nature</a>
+                    <a class="a-menu" href="#">Shows</a>
+                    <a class="a-menu" href="#">More</a>
                 </nav>
             </div>
             
             <nav class="nav-login">
                 <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> </a>
-                <a href="#">Log In</a>
+                <a href="#" class="a-login">Log In</a>
                 <a href="#" class="subscribe">Subscribe</a>
             </nav>
+
+            <div class="menu-responsive">
+                <a href="#">Animals</a>
+                <a href="#">History & Culture</a>
+                <a href="#">Travel</a>
+                <a href="#">Health</a>
+                <a href="#">Science & Nature</a>
+                <a href="#">Shows</a>
+                <a href="#">More</a>
+                
+                <div class="tablet-buttons">
+                    <a href="#" class="btn-sub-cel">SUBSCRIBE</a>
+                    <a href="#" class="btn-log-cel">LOG IN</a>
+                </div>
+            </div>
+
         </header>
 
         <main class="container">
@@ -69,7 +92,7 @@
             </section>
 
             <section class="latest-stories-container">
-                <h2>Latest Stories</h2>
+                <h2 class="latest-stories-title">Latest<br> Stories</h2>
 
                 <div class="todays-pick">
                     <div class="todays-pick-img">
