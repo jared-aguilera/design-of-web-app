@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>P4 - Interactive Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>P4 - Interactive Form</h1>
+    </header>
+
+    <main class="container">
+
+        <div class="form-title">
+            <h2>Registration</h2>
+            <p>Please fill out the following information on the form</p>
+        </div>
+
+        <div class="form-fields">
+
+            <div class="inp-field">
+                <label>Name</label>
+                <input type="text" placeholder="Jared Aguilera" id="txtName">
+                <span class="error-message" id="errorName"></span>
+            </div>
+
+            <div class="inp-field">
+                <label>Email</label>
+                <input type="text" placeholder="jared.aguilera@uabc.edu.mx" id="txtEmail">
+                <span class="error-message" id="errorEmail"></span>
+            </div>
+
+            <div class="inp-field">
+                <label>Phone Number</label>
+                <input type="text" placeholder="6641234567" id="txtPhoneNum">
+                <span class="error-message" id="errorPhoneNum"></span>
+            </div>
+
+            <button class="btnSubmit" id="btnSubmit">Submit</button>
+            <span class="successful-message" id="successfulMessage"></span>
+
+        </div>
+
+
+    </main>
+    
+    <script src = "script.js"></script>
+</body>
+</html>
